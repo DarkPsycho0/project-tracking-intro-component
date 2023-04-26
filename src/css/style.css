@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
 
-body{
+body {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
     background-image: url(../images/illustration-devices.svg);
@@ -9,7 +9,8 @@ body{
     background-position: 110% 60%;
     background-size: inherit;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,36 +19,48 @@ body{
     max-width: 1130px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 159px;
 }
-.header nav ul{
+
+.header nav ul {
     display: flex;
 }
-.header nav ul li{
+
+.header nav ul li {
     margin: 0 21px;
     font-weight: 700;
     font-size: 17px;
     text-transform: uppercase;
     color: hsl(230, 29%, 20%);
 }
-.header nav ul li:last-child{
+
+.header nav ul li:hover{
+    text-decoration: underline;
+}
+
+.header nav ul li:last-child {
     color: hsl(231, 7%, 65%);
 }
-.header nav ul li:nth-child(4){
+
+.header nav ul li:nth-child(4) {
     color: hsl(207, 33%, 95%);
 }
-.section{
+
+.section {
     display: flex;
     width: 100%;
 }
-.info{
+
+.info {
     width: 500px;
 }
-.info span{
+
+.info span {
     padding: 4px 10px;
     color: hsl(207, 33%, 95%);
     background-color: hsl(230, 29%, 20%);
@@ -58,14 +71,16 @@ body{
     font-size: 16px;
     letter-spacing: normal;
 }
-.info p{
+
+.info p {
     text-transform: uppercase;
     color: hsl(230, 11%, 40%);
     letter-spacing: 3px;
     word-spacing: 4px;
     margin-bottom: 20px;
 }
-.info h1{
+
+.info h1 {
     font-size: 63px;
     text-transform: uppercase;
     color: hsl(230, 29%, 20%);
@@ -73,7 +88,8 @@ body{
     word-spacing: 4px;
     line-height: 62px;
 }
-.info .description{
+
+.info .description {
     text-transform: none;
     letter-spacing: normal;
     word-spacing: 2px;
@@ -81,10 +97,12 @@ body{
     width: 280px;
     margin-bottom: 68px;
 }
-.info .btn{
+
+.info .btn {
     display: flex;
 }
-.info .btn a{
+
+.info .btn a {
     padding: 12px 34px;
     background-color: hsl(0, 100%, 68%);
     color: hsl(0, 0%, 100%);
@@ -92,19 +110,15 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     margin-right: 22px;
+    transition: 0.3s ease-in-out;
 }
-.info .btn p{
+
+.info .btn a:hover{
+    opacity: 75%;
+}
+
+.info .btn p {
     margin-bottom: 0;
     height: 20px;
     align-self: center;
-}
-.gray-background{
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: hsl(207, 33%, 95%);
-    z-index: -1;
-    border-bottom-left-radius: 100px;
 }
