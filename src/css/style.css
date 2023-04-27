@@ -43,6 +43,10 @@ body {
     text-decoration: underline;
 }
 
+.header nav i {
+    display: none;
+}
+
 .header nav ul li:last-child {
     color: hsl(231, 7%, 65%);
 }
