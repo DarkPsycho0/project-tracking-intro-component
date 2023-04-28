@@ -24,6 +24,10 @@ Users should be able to:
 
 <img src="./src/images/mobile-screenshot.png">
 
+#### Mobile Menu 📱
+
+<img src="./src/images/mobile-menu-open.png">
+
 ### link 🔗
 
 - Live Site URL: https://lkiryu.github.io/project-tracking-intro-component/
