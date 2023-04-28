@@ -26,7 +26,7 @@ Users should be able to:
 
 ### link 🔗
 
-- Live Site URL: 
+- Live Site URL: https://lkiryu.github.io/project-tracking-intro-component/
 
 ### Built with 🛠️
 
